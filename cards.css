@@ -1,0 +1,45 @@
+html{
+    background-color: #A594F9;
+}
+h1{
+    text-align: center;
+    background-color: #18101a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600
+}
+h1:hover{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+div{
+    width: 250px;
+    border: 2px solid black;
+    border-radius:40px;
+    background-color: #CDC1FF;
+}
+div:hover{
+    /* background-color: #FFD7C4; */
+    color: #18101a;
+    transition: 0.2s;
+    width: 260px;
+    height: 380px;
+}
+img{
+    width: 250px;
+    height: 150px;
+    border-radius:40px 40px 20px 20px;
+}
+section{
+    display: flex;
+    justify-content:space-between;
+    width: 800px;
+    height: 360px;
+    margin: 150px 0 0 290px;
+}
+p, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
